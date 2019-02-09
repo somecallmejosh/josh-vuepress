@@ -1,5 +1,11 @@
 module.exports = {
     title: 'Joshua Briley',
     description: 'Just playing around',
-    base: "/somecallmejosh/"
+    themeConfig: {
+        sidebar: 'auto',
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'About', link: '/about/' }
+        ]
+      }
   }
