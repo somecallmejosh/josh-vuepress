@@ -7,10 +7,6 @@ lang: en-US
 
 What's up with this stuff?
 
-::: warning
-This is a tip
-:::
-
 {{ $page }}
 
 <span v-for="i in 3">{{ i }} </span>
